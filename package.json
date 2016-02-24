@@ -1,0 +1,20 @@
+{
+  "homepage": "https://github.com/Myrenkar/angular_learning#readme",
+  "bugs": {
+    "url": "https://github.com/Myrenkar/angular_learning/issues"
+  },
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a $IP -p $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/Myrenkar/angular_learning.git",
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC"
+}
