@@ -1,20 +1,25 @@
 {
-  "homepage": "https://github.com/Myrenkar/angular_learning#readme",
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Test app for angular",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-dev-server": "^1.14.1",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+     "start": "node node_modules/.bin/webpack-dev-server --host=0.0.0.0 --content-base app",
+    "test": "echo \"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myrenkar/angular_learning.git"
+  },
+  "author": "Piotr T",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Myrenkar/angular_learning/issues"
   },
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "http-server -a $IP -p $PORT",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "url": "git+https://github.com/Myrenkar/angular_learning.git",
-    "type": "git"
-  },
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/Myrenkar/angular_learning#readme"
 }
