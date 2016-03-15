@@ -4,7 +4,16 @@ module.exports = {
   output: {
     path: __dirname + '/app',
     filename: 'bundle.js'
+  },
+  
+   module: {
+    loaders: [
+      {test: /\.js$/,
+      loader: 'babel',
+      exclude: /node_modules/
+      }
+    ]
   }
 
-}
+};
  
