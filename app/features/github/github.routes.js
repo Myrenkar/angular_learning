@@ -1,6 +1,6 @@
 export default function routes($stateProvider) {
   $stateProvider
-    .state('home', {
+    .state('github', {
       url: '/',
       template: require('./github.html'),
       controller: 'GitHubController',
