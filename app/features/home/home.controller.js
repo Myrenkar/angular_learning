@@ -1,12 +1,9 @@
 export default class HomeController {
-    constructor() {
+  constructor() {
+    this.name = 'Na początku był';
+  }
 
-        this.name = 'angular-tips'
-    }
-
-changeName(){
-    
-    this.name = 'Hehehehhe'
-    
-}
+  changeName() {
+    this.name = 'Chaos!!';
+  }
 }
