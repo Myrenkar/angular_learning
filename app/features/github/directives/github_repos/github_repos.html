@@ -1,0 +1,11 @@
+<div class="col-sm-8">
+    <div class="panel panel-default">
+    <table class ="table">
+        <tr ng-repeat="repo in github.Repo">
+            <td>{{repo.name}}</td>
+            <td> {{repo.description}}</td>
+            <td>  <a href = "{{repo.html_url}}" button type="submit" class="btn btn-default">Open</button> </td>
+        </tr>
+    </table>
+    </div>
+</div>
