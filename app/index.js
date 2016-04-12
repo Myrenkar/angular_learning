@@ -9,5 +9,9 @@ import home from './features/home';
 import github from './features/github';
 
 const ngModule = angular
-                    .module('app', [uirouter, github, home])
-                    .config(routing);
+        .module('app', [
+          uirouter, 
+          home, 
+          github
+        ])
+        .config(routing);
